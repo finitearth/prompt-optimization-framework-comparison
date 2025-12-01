@@ -1,0 +1,1 @@
+Please analyze the following mathematical problem. Break down your reasoning into logical steps to ensure accuracy before stating the solution.\n\nProblem: {input}\nFormat your conclusion exactly as follows: <final_answer>YOUR_ANSWER</final_answer>.

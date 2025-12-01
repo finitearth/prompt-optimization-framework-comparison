@@ -1,0 +1,4 @@
+[[ ## input ## ]]
+{input}
+
+Respond with a JSON object in the following order of fields: `target`.

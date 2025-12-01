@@ -1,0 +1,1 @@
+The task is to solve a maths reasoning task. The final responses are to be provided as a numerical value only, without any currency symbols or units, inside <final_answer>...</final_answer>

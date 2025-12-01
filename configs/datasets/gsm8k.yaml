@@ -1,0 +1,2 @@
+name: "gsm8k"
+task_description: "The task is to solve a maths reasoning task. The final responses are to be provided inside <final_answer>...</final_answer> tags."

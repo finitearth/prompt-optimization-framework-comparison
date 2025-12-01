@@ -1,0 +1,1 @@
+Calculate the solution to the problem below. Show your steps.\n\n{input}\n\nRequired output format: <final_answer>ANSWER</final_answer>

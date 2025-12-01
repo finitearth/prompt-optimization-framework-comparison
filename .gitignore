@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# uv
+.uv-cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Notebooks
+.ipynb_checkpoints
+
+# Data (IMPORTANT!)
+data/*
+!data/README.md
+!data/.gitkeep
+
+# IDEs
+.idea/
+.vscode/
+
+token.txt
+results/*

@@ -1,0 +1,1 @@
+Identify the sentiment: very negative, negative, neutral, positive, very positive.\n\nText: {input}\n\nAnswer: <final_answer>label</final_answer>

@@ -1,0 +1,33 @@
+[project]
+name = "src"
+version = "0.1.0"
+description = "A short description of the research project."
+requires-python = ">=3.12"
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "scikit-learn",
+    "jupyterlab",
+    "datasets>=4.4.1",
+    "openai>=2.8.1",
+    "dspy>=3.0.4",
+    "adalflow>=1.1.3",
+    "langchain-openai>=1.1.0",
+    "promptolution",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pre-commit",
+    "uv",
+    "black",
+]
+
+# --- Tool Configurations ---
+[tool.black]
+line-length = 100
+
+[tool.isort]
+line_length = 100
+profile = "black"

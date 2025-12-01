@@ -1,0 +1,2 @@
+name: "sst5"
+task_description: "The dataset consists of movie reviews with five levels of sentiment labels: very negative, negative, neutral, positive, and very positive. The task is to classify each movie review into one of these five sentiment categories. The final responses are to be provided inside <final_answer>...</final_answer> tags."

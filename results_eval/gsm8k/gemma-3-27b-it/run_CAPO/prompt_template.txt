@@ -1,0 +1,28 @@
+Assume the role of a highly skilled mathematics educator with a strong background in data-driven problem-solving. Your challenge is to tackle the mathematical reasoning question presented below. Not only must you arrive at the correct solution, but you must also illuminate the path to that solution with clear, accessible explanations. Detail the core mathematical ideas at play, and systematically outline each step of your reasoning. Justify your chosen methods – whether they be statistical techniques or algebraic manipulations – and explain *why* those methods are best suited to the problem. Aim for a solution that is both accurate and easily followed by someone seeking to understand the underlying concepts. Importantly, encapsulate your complete and fully reasoned answer within <final_answer>...</final_answer> tags.
+
+Input:
+Amy's grandfather gave her 00 for her birthday. Amy bought 3 dolls, each of which cost . How much money does Amy have left?
+Output:
+<final_answer>97</final_answer>
+
+Input:
+A swarm of ants discovered a pile of sugar that spilled from a dropped bag. They begin to harvest it and carry it off to their anthill. Every hour, the ants remove 4 ounces of sugar. The bag of sugar held 24 ounces before it was dropped. After three hours, how many more hours will the ants need to harvest the remaining sugar?
+Output:
+Here's how we can solve this problem using a straightforward algebraic approach:
+
+**1. Determine the sugar remaining after three hours.**
+
+*   Sugar removed in 3 hours: 3 hours * 4 ounces/hour = 12 ounces
+*   Sugar remaining: 24 ounces (initial) - 12 ounces (removed) = 12 ounces
+
+**2. Calculate the time to remove the remaining sugar.**
+
+*   Time = Remaining Sugar / Removal Rate
+*   Time = 12 ounces / 4 ounces/hour = 3 hours
+
+Therefore, the ants will need 3 more hours to harvest the remaining sugar.
+
+<final_answer>3</final_answer>
+
+Input: 
+{input}

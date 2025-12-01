@@ -1,0 +1,1 @@
+Solve the maths problem step by step. Give your answer inside <final_answer>...</final_answer>.\n\n{input}

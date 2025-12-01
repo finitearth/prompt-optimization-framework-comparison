@@ -1,0 +1,1 @@
+Text: {input}\n\nClassify as very negative, negative, neutral, positive, or very positive.\n\bOutput: <final_answer>label</final_answer>"
