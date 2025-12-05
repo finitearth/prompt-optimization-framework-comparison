@@ -1,7 +1,7 @@
 # Comparison of Prompt Optimization Frameworks
 
 This repository provides a benchmark of the prompt optimization Libaries [DSPy](https://github.com/stanfordnlp/dspy), [AdalFlow](https://github.com/SylphAI-Inc/AdalFlow), and [Promptolution](https://github.com/automl/promptolution) on SST-5 and GSM8K.
-It accompanies the paper **Promptolution: A Unified, Modular Framework for Prompt Optimization** (Link: *TBD*).
+It accompanies the [paper **Promptolution: A Unified, Modular Framework for Prompt Optimization** ](https://arxiv.org/abs/2512.02840).
 
 ## Results
 
