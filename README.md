@@ -34,14 +34,15 @@ In order to run the benchmarking experiments, please configure your API provider
 Run a benchmark for a specific task:
 
 ```bash
- uv run -m src.run_experiment --optimizer capo --task_config configs/datasets/gsm8k.yaml --token_limit 1000000
+ uv run -m src.run_experiment --optimizer capo --task_config configs/datasets/gsm8k.yaml --token_limit 1000000 # For GSM8K
+ uv run -m src.run_experiment --optimizer capo --task_config configs/datasets/sst5.yaml --token_limit 1000000  # For SST5
 ```
 
 In order to run the evaluation of the resulting prompt, run:
 
 ```bash
-uv run -m src.run_evaluation --model_config configs/model_config.yaml --task_config configs/datasets/sst5.yaml --system_prompt "<YOUR SYSTEM PROMPT>" --prompt_template "<YOUR PROMPT>"
-
+uv run -m src.run_evaluation --model_config configs/model_config.yaml --task_config configs/datasets/gsm8k.yaml --system_prompt "<SYSTEM PROMPT>" --prompt_template "<PROMPT>" # For GSM8K
+uv run -m src.run_evaluation --model_config configs/model_config.yaml --task_config configs/datasets/sst5.yaml --system_prompt "<SYSTEM PROMPT>" --prompt_template "<PROMPT>"  # For SST5
 ```
 
 Your prompt template should include a `{input}` placeholder in order to parse the data points to the LLM.
@@ -51,16 +52,17 @@ Your prompt template should include a `{input}` placeholder in order to parse th
 If you use this benchmark or the associated framework, please cite:
 
 **Promptolution: A Unified, Modular Framework for Prompt Optimization**
-*(Full citation and link: TBD)*
 
 ```bibtex
-@misc{promptolution2025,
-  title        = {Promptolution: A Unified, Modular Framework for Prompt Optimization},
-  author       = {Zehle, Tom and Hei{\ss}, Timo and Schlager, Moritz and A{\ss}enmacher, Matthias and Feurer, Matthias},
-  year         = {2025},
-  note         = {Link: TBD},
+@article{zehle2025promptolution,
+  title={promptolution: A Unified, Modular Framework for Prompt Optimization},
+  author={Zehle, Tom and Hei{\ss}, Timo and Schlager, Moritz and A{\ss}enmacher, Matthias and Feurer, Matthias},
+  journal={arXiv preprint arXiv:2512.02840},
+  year={2025}
 }
 ```
+
+Link to the Paper: https://arxiv.org/abs/2512.02840
 
 ## Contact
 
